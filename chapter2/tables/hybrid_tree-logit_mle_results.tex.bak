@@ -1,0 +1,37 @@
+\begin{tabular}{K{0.5\linewidth} rr}
+\toprule
+{} & \multicolumn{2}{c}{Hybrid Tree-Logit} \\
+Variables & \multicolumn{1}{c}{Parameter} & \multicolumn{1}{c}{$t$-Stat} \tabularnewline
+\midrule
+
+ASC Shared Ride: 2 & -2.717 & -11.715** \\
+ASC Shared Ride: 3+ & -2.831 & -12.110** \\
+ASC Walk-Transit-Walk & -0.167 & -0.462\hphantom{*}\hphantom{*} \\
+ASC Drive-Transit-Walk & -3.370 & -7.237** \\
+ASC Walk-Transit-Drive & -3.907 & -8.125** \\
+ASC Walk & 1.404 & 5.228** \\
+ASC Bike & -3.291 & -5.297** \\
+Travel Time, units:min (All Auto Modes) & -0.112 & -7.887** \\
+Travel Time, units:min (All Transit Modes) & -0.029 & -6.970** \\
+Travel Cost, units:\$ (All Transit Modes) & -0.124 & -1.442\hphantom{*}\hphantom{*} \\
+Travel Distance, units:mi (Walk) & -1.096 & -12.475** \\
+Travel Distance, units:mi (Bike) & -0.219 & -4.066** \\
+Household Size (Shared Ride 2 \& 3+) & 0.585 & 9.618** \\
+Cross-Bay Tour (All Transit Modes) & 1.056 & 2.146*\hphantom{*}  \\
+Node 1 (Bike) & 1.402 & 2.816** \\
+Node 2 (Bike) & 0.926 & 1.066\hphantom{*}\hphantom{*} \\
+Node 3 (Bike) & 1.928 & 2.369*\hphantom{*}  \\
+Node 4 (Bike) & 4.238 & 6.338** \\
+Node 5 (Bike) & 2.370 & 3.798** \\
+Node 6 (Bike) & 4.583 & 4.931** \\
+Node 7 (Bike) & 2.612 & 3.585** \\
+Node 8 (Bike) & 1.483 & 2.145*\hphantom{*}  \\
+
+\multicolumn{3}{c}{}\tabularnewline
+Log-likelihood & -1,372.327 & \multicolumn{1}{c}{} \tabularnewline
+
+\bottomrule
+\multicolumn{3}{l}{Note: * means $\textrm{p-value} < 0.05$ and ** means $\textrm{p-value} < 0.01$.} \\
+\multicolumn{3}{l}{Note: Model estimated using ridge regression (ridge parameter = 1e-3)}\\
+\multicolumn{3}{l}{\hphantom{Note: }to deal with perfect separation in the decision tree}
+\end{tabular}

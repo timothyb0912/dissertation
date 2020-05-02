@@ -1,0 +1,690 @@
+\begin{thebibliography}{73}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Aranda-Ordaz(1981)]{aranda-ordaz_two_1981}
+Francisco~J. Aranda-Ordaz.
+\newblock On two families of transformations to additivity for binary response
+  data.
+\newblock \emph{Biometrika}, 68\penalty0 (2):\penalty0 357--363, August 1981.
+\newblock ISSN 0006-3444, 1464-3510.
+\newblock \doi{10.1093/biomet/68.2.357}.
+\newblock URL \url{http://biomet.oxfordjournals.org/content/68/2/357}.
+
+\bibitem[Berm{\'u}dez et~al.(2008)Berm{\'u}dez, P{\'e}rez, Ayuso, G{\'o}mez,
+  and V{\'a}zquez]{bermudez_bayesian_2008}
+Ll. Berm{\'u}dez, J.~M. P{\'e}rez, M.~Ayuso, E.~G{\'o}mez, and F.~J.
+  V{\'a}zquez.
+\newblock A {Bayesian} dichotomous model with asymmetric link for fraud in
+  insurance.
+\newblock \emph{Insurance: Mathematics and Economics}, 42\penalty0
+  (2):\penalty0 779--786, April 2008.
+\newblock ISSN 0167-6687.
+\newblock \doi{10.1016/j.insmatheco.2007.08.002}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0167668707000947}.
+
+\bibitem[Breslow et~al.(1987)Breslow, Day, and
+  {others}]{breslow_statistical_1987}
+Norman~E. Breslow, Nicholas~E. Day, and {others}.
+\newblock \emph{Statistical methods in cancer research}, volume~2.
+\newblock International Agency for Research on Cancer Lyon, 1987.
+\newblock URL
+  \url{http://w2.iarc.fr/en/publications/pdfs-online/stat/sp32/SP32_vol1-0.pdf}.
+
+\bibitem[Calabrese and Osmetti(2011)]{calabrese_generalized_2011}
+Raffaella Calabrese and Silvia Osmetti.
+\newblock Generalized {Extreme} {Value} {Regression} for {Binary} {Rare}
+  {Events} {Data}: an {Application} to {Credit} {Defaults}.
+\newblock Working {Paper} 201120, Geary Institute, University College Dublin,
+  September 2011.
+\newblock URL \url{http://econpapers.repec.org/paper/ucdwpaper/201120.htm}.
+
+\bibitem[{California Department of
+  Transportation}(2002)]{california_department_of_transportation_california_2002}
+{California Department of Transportation}.
+\newblock {CALIFORNIA} {BLUEPRINT} {FOR} {BICYCLING} {AND} {WALKING} : {REPORT}
+  {TO} {THE} {LEGISLATURE}.
+\newblock Technical report, California Department of Transportation, 2002.
+\newblock URL
+  \url{http://www.dot.ca.gov/hq/LocalPrograms/bike/CABlueprintRpt.pdf}.
+
+\bibitem[{Cambridge Systematics}(2002)]{cambridge_systematics_san_2002}
+{Cambridge Systematics}.
+\newblock San {Francisco} {Travel} {Demand} {Forecasting} {Model}
+  {Development}: {Mode} {Choice} {Models}.
+\newblock Technical report, San Francisco County Transportation Authority,
+  October 2002.
+\newblock URL \url{http://www.sfcta.org/modeling-and-travel-forecasting}.
+
+\bibitem[Cascetta and Papola(2009)]{cascetta_dominance_2009}
+Ennio Cascetta and Andrea Papola.
+\newblock Dominance among alternatives in random utility models.
+\newblock \emph{Transportation Research Part A: Policy and Practice},
+  43\penalty0 (2):\penalty0 170--179, February 2009.
+\newblock ISSN 0965-8564.
+\newblock \doi{10.1016/j.tra.2008.10.003}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0965856408001894}.
+
+\bibitem[Castillo et~al.(2008)Castillo, Men{\'e}ndez, Jim{\'e}nez, and
+  Rivas]{castillo_closed_2008}
+Enrique Castillo, Jos{\'e}~Mar{\'i}a Men{\'e}ndez, Pilar Jim{\'e}nez, and Ana
+  Rivas.
+\newblock Closed form expressions for choice probabilities in the {Weibull}
+  case.
+\newblock \emph{Transportation Research Part B: Methodological}, 42\penalty0
+  (4):\penalty0 373--380, May 2008.
+\newblock ISSN 0191-2615.
+\newblock \doi{10.1016/j.trb.2007.08.002}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S019126150700077X}.
+
+\bibitem[Chen et~al.(2004)Chen, Liaw, and Breiman]{chen_using_2004}
+Chao Chen, Andy Liaw, and Leo Breiman.
+\newblock Using random forest to learn imbalanced data.
+\newblock Technical report, University of California, Berkeley, 2004.
+\newblock URL
+  \url{http://statistics.berkeley.edu/sites/default/files/tech-reports/666.pdf}.
+
+\bibitem[Chen et~al.(1999)Chen, Dey, and Shao]{chen_new_1999}
+Ming-Hui Chen, Dipak~K. Dey, and Qi-Man Shao.
+\newblock A {New} {Skewed} {Link} {Model} for {Dichotomous} {Quantal}
+  {Response} {Data}.
+\newblock \emph{Journal of the American Statistical Association}, 94\penalty0
+  (448):\penalty0 1172--1186, December 1999.
+\newblock ISSN 0162-1459.
+\newblock \doi{10.2307/2669933}.
+\newblock URL \url{http://www.jstor.org/stable/2669933}.
+
+\bibitem[Cleland and Walton(2004)]{cleland_why_2004}
+B.~S. Cleland and D.~Walton.
+\newblock Why don{\textquoteright}t people walk and cycle.
+\newblock Technical Report 528007, Central Laboratories, New Zealand, July
+  2004.
+\newblock URL
+  \url{http://can.org.nz/system/files/Why%20dont%20people%20walk%20and%20cycle.pdf}.
+
+\bibitem[Cramer(1999)]{cramer_predictive_1999}
+J.~S. Cramer.
+\newblock Predictive {Performance} of the {Binary} {Logit} {Model} in
+  {Unbalanced} {Samples}.
+\newblock \emph{Journal of the Royal Statistical Society: Series D (The
+  Statistician)}, 48\penalty0 (1):\penalty0 85--94, April 1999.
+\newblock ISSN 1467-9884.
+\newblock \doi{10.1111/1467-9884.00173}.
+\newblock URL
+  \url{http://onlinelibrary.wiley.com/doi/10.1111/1467-9884.00173/abstract}.
+
+\bibitem[Czado(1994)]{czado_parametric_1994}
+C.~Czado.
+\newblock Parametric link modification of both tails in binary regression.
+\newblock \emph{Statistical Papers}, 35\penalty0 (1):\penalty0 189--201,
+  December 1994.
+\newblock ISSN 0932-5026, 1613-9798.
+\newblock \doi{10.1007/BF02926413}.
+\newblock URL \url{http://link.springer.com/article/10.1007/BF02926413}.
+
+\bibitem[Czado(1992)]{czado_link_1992}
+Claudia Czado.
+\newblock On {Link} {Selection} in {Generalized} {Linear} {Models}.
+\newblock In Ludwig Fahrmeir, Brian Francis, Robert Gilchrist, and Gerhard
+  Tutz, editors, \emph{Advances in {GLIM} and {Statistical} {Modelling}},
+  number~78 in Lecture {Notes} in {Statistics}, pages 60--65. Springer New
+  York, 1992.
+\newblock ISBN 978-0-387-97873-4 978-1-4612-2952-0.
+\newblock URL
+  \url{http://link.springer.com/chapter/10.1007/978-1-4612-2952-0_10}.
+
+\bibitem[Czado and Santner(1992)]{czado_effect_1992}
+Claudia Czado and Thomas~J. Santner.
+\newblock The effect of link misspecification on binary regression inference.
+\newblock \emph{Journal of Statistical Planning and Inference}, 33\penalty0
+  (2):\penalty0 213--231, November 1992.
+\newblock ISSN 0378-3758.
+\newblock \doi{10.1016/0378-3758(92)90069-5}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/0378375892900695}.
+
+\bibitem[Das and Mukhopadhyay(2014)]{das_generalized_2014}
+I.~Das and S.~Mukhopadhyay.
+\newblock On generalized multinomial models and joint percentile estimation.
+\newblock \emph{Journal of Statistical Planning and Inference}, 145:\penalty0
+  190--203, February 2014.
+\newblock ISSN 0378-3758.
+\newblock \doi{10.1016/j.jspi.2013.08.015}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0378375813002103}.
+
+\bibitem[Elrod et~al.(2004)Elrod, Johnson, and White]{elrod_new_2004}
+Terry Elrod, Richard~D. Johnson, and Joan White.
+\newblock A new integrated model of noncompensatory and compensatory decision
+  strategies.
+\newblock \emph{Organizational Behavior and Human Decision Processes},
+  95\penalty0 (1):\penalty0 1--19, September 2004.
+\newblock ISSN 0749-5978.
+\newblock \doi{10.1016/j.obhdp.2004.06.002}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0749597804000573}.
+
+\bibitem[Ewing and Cervero(2001)]{ewing_travel_2001}
+Reid Ewing and Robert Cervero.
+\newblock Travel and the {Built} {Environment}: {A} {Synthesis}.
+\newblock \emph{Transportation Research Record: Journal of the Transportation
+  Research Board}, 1780:\penalty0 87--114, January 2001.
+\newblock ISSN 0361-1981.
+\newblock \doi{10.3141/1780-10}.
+\newblock URL \url{http://trrjournalonline.trb.org/doi/abs/10.3141/1780-10}.
+
+\bibitem[{Federal Highway
+  Administration}(2003)]{federal_highway_administration_bicycle_2003}
+{Federal Highway Administration}.
+\newblock Bicycle and {Pedestrian} {Transportation} {Planning} {Guidance} -
+  {Guidance} - {Bicycle} and {Pedestrian} {Program} - {Environment} - {FHWA},
+  August 2003.
+\newblock URL
+  \url{http://www.fhwa.dot.gov/environment/bicycle_pedestrian/guidance/inter.cfm#i2}.
+
+\bibitem[Fosgerau and Bierlaire(2009)]{fosgerau_discrete_2009}
+M.~Fosgerau and M.~Bierlaire.
+\newblock Discrete choice models with multiplicative error terms.
+\newblock \emph{Transportation Research Part B: Methodological}, 43\penalty0
+  (5):\penalty0 494--505, June 2009.
+\newblock ISSN 0191-2615.
+\newblock \doi{10.1016/j.trb.2008.10.004}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0191261508001215}.
+
+\bibitem[Gilbride and Allenby(2004)]{gilbride_choice_2004}
+Timothy~J. Gilbride and Greg~M. Allenby.
+\newblock A {Choice} {Model} with {Conjunctive}, {Disjunctive}, and
+  {Compensatory} {Screening} {Rules}.
+\newblock \emph{Marketing Science}, 23\penalty0 (3):\penalty0 391--406, 2004.
+\newblock ISSN 0732-2399.
+\newblock URL \url{http://www.jstor.org/stable/30036705}.
+
+\bibitem[Gilbride and Allenby(2006)]{gilbride_estimating_2006}
+Timothy~J. Gilbride and Greg~M. Allenby.
+\newblock Estimating {Heterogeneous} {EBA} and {Economic} {Screening} {Rule}
+  {Choice} {Models}.
+\newblock \emph{Marketing Science}, 25\penalty0 (5):\penalty0 494--509, 2006.
+\newblock ISSN 0732-2399.
+\newblock URL \url{http://www.jstor.org/stable/40057038}.
+
+\bibitem[Goetzke(2003)]{goetzke_are_2003}
+Frank Goetzke.
+\newblock \emph{Are {Travel} {Demand} {Forecasting} {Models} {Biased} because
+  of {Uncorrected} {Spatial} {Autocorrelation}? {By}}.
+\newblock 2003.
+
+\bibitem[Goldsmith(1992)]{goldsmith_reasons_1992}
+Stewart~A. Goldsmith.
+\newblock \emph{Reasons why bicycling and walking are and are not being used
+  more extensively as travel modes}.
+\newblock Number~1. Federal Highway Administration, 1992.
+\newblock URL \url{http://safety.fhwa.dot.gov/ped_bike/docs/case1.pdf}.
+
+\bibitem[Guerrero and Johnson(1982)]{guerrero_use_1982}
+Victor~M. Guerrero and Richard~A. Johnson.
+\newblock Use of the {Box}-{Cox} transformation with binary response models.
+\newblock \emph{Biometrika}, 69\penalty0 (2):\penalty0 309--314, August 1982.
+\newblock ISSN 0006-3444, 1464-3510.
+\newblock \doi{10.1093/biomet/69.2.309}.
+\newblock URL \url{http://biomet.oxfordjournals.org/content/69/2/309}.
+
+\bibitem[Guo et~al.(2007)Guo, Bhat, and Copperman]{guo_effect_2007}
+Jessica Guo, Chandra Bhat, and Rachel Copperman.
+\newblock Effect of the {Built} {Environment} on {Motorized} and {Nonmotorized}
+  {Trip} {Making}: {Substitutive}, {Complementary}, or {Synergistic}?
+\newblock \emph{Transportation Research Record: Journal of the Transportation
+  Research Board}, 2010:\penalty0 1--11, January 2007.
+\newblock ISSN 0361-1981.
+\newblock \doi{10.3141/2010-01}.
+\newblock URL \url{http://trrjournalonline.trb.org/doi/10.3141/2010-01}.
+
+\bibitem[H{\"a}rdle et~al.(1997)H{\"a}rdle, Spokoiny, Sperlich, and
+  {others}]{hardle_semiparametric_1997}
+Wolfgang H{\"a}rdle, V.~Spokoiny, Stefan Sperlich, and {others}.
+\newblock Semiparametric single index versus fixed link function modelling.
+\newblock \emph{The Annals of Statistics}, 25\penalty0 (1):\penalty0 212--243,
+  1997.
+\newblock URL \url{http://projecteuclid.org/euclid.aos/1034276627}.
+
+\bibitem[Hauser et~al.(2010)Hauser, Toubia, Evgeniou, Befurt, and
+  Dzyabura]{hauser_disjunctions_2010}
+John~R Hauser, Olivier Toubia, Theodoros Evgeniou, Rene Befurt, and Daria
+  Dzyabura.
+\newblock Disjunctions of {Conjunctions}, {Cognitive} {Simplicity}, and
+  {Consideration} {Sets}.
+\newblock \emph{Journal of Marketing Research}, 47\penalty0 (3):\penalty0
+  485--496, June 2010.
+\newblock ISSN 0022-2437.
+\newblock \doi{10.1509/jmkr.47.3.485}.
+\newblock URL \url{http://journals.ama.org/doi/abs/10.1509/jmkr.47.3.485}.
+
+\bibitem[He and Garcia(2009)]{he_learning_2009}
+Haibo He and E.A Garcia.
+\newblock Learning from {Imbalanced} {Data}.
+\newblock \emph{IEEE Transactions on Knowledge and Data Engineering},
+  21\penalty0 (9):\penalty0 1263--1284, September 2009.
+\newblock ISSN 1041-4347.
+\newblock \doi{10.1109/TKDE.2008.239}.
+
+\bibitem[Horowitz(2010)]{horowitz_semiparametric_2010}
+Joel~L. Horowitz.
+\newblock \emph{Semiparametric and {Nonparametric} {Methods} in
+  {Econometrics}}.
+\newblock Springer Science \& Business Media, July 2010.
+\newblock ISBN 978-0-387-92870-8.
+
+\bibitem[Japkowicz(2000)]{japkowicz_class_2000}
+Nathalie Japkowicz.
+\newblock The {Class} {Imbalance} {Problem}: {Significance} and {Strategies}.
+\newblock In \emph{In {Proceedings} of the 2000 {International} {Conference} on
+  {Artificial} {Intelligence} ({ICAI}}, pages 111--117, 2000.
+
+\bibitem[Jedidi and Kohli(2005)]{jedidi_probabilistic_2005}
+Kamel Jedidi and Rajeev Kohli.
+\newblock Probabilistic {Subset}-{Conjunctive} {Models} for {Heterogeneous}
+  {Consumers}.
+\newblock \emph{Journal of Marketing Research}, 42\penalty0 (4):\penalty0
+  483--494, November 2005.
+\newblock ISSN 0022-2437.
+\newblock \doi{10.1509/jmkr.2005.42.4.483}.
+\newblock URL \url{http://journals.ama.org/doi/abs/10.1509/jmkr.2005.42.4.483}.
+
+\bibitem[Jiang et~al.(2013)Jiang, Dey, Prunier, Wilson, and
+  Holsinger]{jiang_new_2013}
+Xun Jiang, Dipak~K. Dey, Rachel Prunier, Adam~M. Wilson, and Kent~E. Holsinger.
+\newblock A new class of flexible link functions with application to species
+  co-occurrence in cape floristic region.
+\newblock \emph{The Annals of Applied Statistics}, 7\penalty0 (4):\penalty0
+  2180--2204, December 2013.
+\newblock ISSN 1932-6157.
+\newblock \doi{10.1214/13-AOAS663}.
+\newblock URL \url{http://arxiv.org/abs/1401.1915}.
+\newblock arXiv: 1401.1915.
+
+\bibitem[Kim(2002)]{kim_binary_2002}
+Hea-Jung Kim.
+\newblock Binary {Regression} with a {Class} of {Skewed} t-{Link} {Models}.
+\newblock \emph{Communications in Statistics - Theory and Methods}, 31\penalty0
+  (10):\penalty0 1863--1886, January 2002.
+\newblock ISSN 0361-0926.
+\newblock \doi{10.1081/STA-120014917}.
+\newblock URL \url{http://dx.doi.org/10.1081/STA-120014917}.
+
+\bibitem[Kim et~al.(2008)Kim, Chen, and Dey]{kim_flexible_2008}
+Sungduk Kim, Ming-Hui Chen, and Dipak~K. Dey.
+\newblock Flexible generalized t-link models for binary response data.
+\newblock \emph{Biometrika}, 95\penalty0 (1):\penalty0 93--106, March 2008.
+\newblock ISSN 0006-3444, 1464-3510.
+\newblock \doi{10.1093/biomet/asm079}.
+\newblock URL \url{http://biomet.oxfordjournals.org/content/95/1/93}.
+
+\bibitem[King and Zeng(2001)]{king_logistic_2001}
+Gary King and Langche Zeng.
+\newblock Logistic {Regression} in {Rare} {Events} {Data}.
+\newblock \emph{Political Analysis}, 9\penalty0 (2):\penalty0 137--163, January
+  2001.
+\newblock ISSN 1047-1987, 1476-4989.
+\newblock URL \url{http://pan.oxfordjournals.org/content/9/2/137}.
+
+\bibitem[Koenker and Yoon(2009)]{koenker_parametric_2009}
+Roger Koenker and Jungmo Yoon.
+\newblock Parametric links for binary choice models: {A}
+  {Fisherian}{\textendash}{Bayesian} colloquy.
+\newblock \emph{Journal of Econometrics}, 152\penalty0 (2):\penalty0 120--130,
+  October 2009.
+\newblock ISSN 0304-4076.
+\newblock \doi{10.1016/j.jeconom.2009.01.009}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0304407609000207}.
+
+\bibitem[Kohli and Jedidi(2007)]{kohli_representation_2007}
+Rajeev Kohli and Kamel Jedidi.
+\newblock Representation and {Inference} of {Lexicographic} {Preference}
+  {Models} and {Their} {Variants}.
+\newblock \emph{Marketing Science}, 26\penalty0 (3):\penalty0 380--399, May
+  2007.
+\newblock ISSN 0732-2399.
+\newblock \doi{10.1287/mksc.1060.0241}.
+\newblock URL
+  \url{http://pubsonline.informs.org/doi/abs/10.1287/mksc.1060.0241}.
+
+\bibitem[Komori et~al.(2015)Komori, Eguchi, Ikeda, Okamura, Ichinokawa, and
+  Nakayama]{komori_asymmetric_2015}
+Osamu Komori, Shinto Eguchi, Shiro Ikeda, Hiroshi Okamura, Momoko Ichinokawa,
+  and Shinichiro Nakayama.
+\newblock An asymmetric logistic regression model for ecological data.
+\newblock \emph{Methods in Ecology and Evolution}, pages n/a--n/a, October
+  2015.
+\newblock ISSN 2041-210X.
+\newblock \doi{10.1111/2041-210X.12473}.
+\newblock URL
+  \url{http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12473/abstract}.
+
+\bibitem[{League of American
+  Bicyclists}(2014)]{league_of_american_bicyclists_where_2014}
+{League of American Bicyclists}.
+\newblock Where {We} {Ride}: {Analysis} of bicycling in {American} cities.
+\newblock Technical report, The League of American Bicyclists, September 2014.
+\newblock URL
+  \url{http://bikeleague.org/sites/default/files/ACS_report_2014_forweb.pdf}.
+
+\bibitem[Li(2011)]{li_multinomial_2011}
+Baibing Li.
+\newblock The multinomial logit model revisited: {A} semi-parametric approach
+  in discrete choice analysis.
+\newblock \emph{Transportation Research Part B: Methodological}, 45\penalty0
+  (3):\penalty0 461--473, March 2011.
+\newblock ISSN 0191-2615.
+\newblock \doi{10.1016/j.trb.2010.09.007}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0191261510001190}.
+
+\bibitem[Liu(2004)]{liu_robit_2004}
+Chuanhai Liu.
+\newblock Robit regression: a simple robust alternative to logistic and probit
+  regression.
+\newblock \emph{Applied Bayesian modeling and causal inference from
+  incomplete-data perspectives}, pages 227--238, 2004.
+\newblock URL
+  \url{http://www.stat.purdue.edu/~chuanhai/teaching/Stat598A/robit.pdf}.
+
+\bibitem[Mahmoud et~al.(2015)Mahmoud, Weiss, and Habib]{mahmoud_latent_2015}
+Mohamed~Salah Mahmoud, Adam Weiss, and Khandker~Nurul Habib.
+\newblock Latent {Captivation} or {Mode} {Culture}? {Investigation} into {Mode}
+  {Choice} {Preference} {Structures} in {Competitive} {Modal} {Arrangements}.
+\newblock 2015.
+\newblock URL \url{http://trid.trb.org/view.aspx?id=1337392}.
+
+\bibitem[Manski and Lerman(1977)]{manski_estimation_1977}
+Charles~F. Manski and Steven~R. Lerman.
+\newblock The {Estimation} of {Choice} {Probabilities} from {Choice} {Based}
+  {Samples}.
+\newblock \emph{Econometrica}, 45\penalty0 (8):\penalty0 1977--1988, November
+  1977.
+\newblock ISSN 0012-9682.
+\newblock \doi{10.2307/1914121}.
+\newblock URL \url{http://www.jstor.org/stable/1914121}.
+
+\bibitem[Masnadi-shirazi and Vasconcelos(2010)]{masnadi-shirazi_variable_2010}
+Hamed Masnadi-shirazi and Nuno Vasconcelos.
+\newblock Variable margin losses for classifier design.
+\newblock In J.~D. Lafferty, C.~K.~I. Williams, J.~Shawe-Taylor, R.~S. Zemel,
+  and A.~Culotta, editors, \emph{Advances in {Neural} {Information}
+  {Processing} {Systems} 23}, pages 1576--1584. Curran Associates, Inc., 2010.
+\newblock URL
+  \url{http://papers.nips.cc/paper/4024-variable-margin-losses-for-classifier-design.pdf}.
+
+\bibitem[McFadden(1972)]{mcfadden_conditional_1972}
+D.~McFadden.
+\newblock {CONDITIONAL} {LOGIT} {ANALYSIS} {OF} {QUALITATIVE} {CHOICE}
+  {BEHAVIOR}.
+\newblock \emph{WORKING PAPER INSTITUTE OF URBAN AND REGIONAL}, \penalty0
+  (199/), 1972.
+\newblock URL \url{http://trid.trb.org/view.aspx?id=235187}.
+
+\bibitem[Nagler(1994)]{nagler_scobit:_1994}
+Jonathan Nagler.
+\newblock Scobit: {An} {Alternative} {Estimator} to {Logit} and {Probit}.
+\newblock \emph{American Journal of Political Science}, 38\penalty0
+  (1):\penalty0 230--255, February 1994.
+\newblock ISSN 0092-5853.
+\newblock \doi{10.2307/2111343}.
+\newblock URL \url{http://www.jstor.org/stable/2111343}.
+
+\bibitem[Nakayama and Chikaraishi(2015)]{nakayama_unified_2015}
+Shoichiro Nakayama and Makoto Chikaraishi.
+\newblock A {Unified} {Closed}-form {Expression} of {Logit} and {Weibit} and
+  its {Application} to a {Transportation} {Network} {Equilibrium} {Assignment}.
+\newblock \emph{Transportation Research Procedia}, 7:\penalty0 59--74, 2015.
+\newblock ISSN 2352-1465.
+\newblock \doi{10.1016/j.trpro.2015.06.004}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S2352146515000721}.
+
+\bibitem[Nassir et~al.(2014)Nassir, Ziebarth, Sall, and
+  Zorn]{nassir_choice_2014}
+Neema Nassir, Jennifer Ziebarth, Elizabeth Sall, and Lisa Zorn.
+\newblock A {Choice} {Set} {Generation} {Algorithm} {Suitable} for {Measuring}
+  {Route} {Choice} {Accessibility}.
+\newblock 2014.
+\newblock URL \url{http://trid.trb.org/view/2014/C/1289516}.
+
+\bibitem[{Parsons Brinckerhoff Quade \& Douglas} et~al.(2005){Parsons
+  Brinckerhoff Quade \& Douglas}, {PB Consult}, {AECOM Consult}, {Urbitran
+  Associates}, {Urbanomics}, {Alex Anas \& Associates}, {NuStats
+  International}, and {George Hoyte \&
+  Associates}]{parsons_brinckerhoff_quade_&_douglas_transportation_2005}
+{Parsons Brinckerhoff Quade \& Douglas}, {PB Consult}, {AECOM Consult},
+  {Urbitran Associates}, {Urbanomics}, {Alex Anas \& Associates}, {NuStats
+  International}, and {George Hoyte \& Associates}.
+\newblock Transportation {Models} and {Data} {Initiative}: {General} {Final}
+  {Report}--{New} {York} {Best} {Practice} {Model}.
+\newblock Technical report, New York Metropolitan Transportation Council,
+  January 2005.
+\newblock URL \url{http://www.nymtc.org/project/bpm/model/bpm_finalrpt.pdf}.
+
+\bibitem[P{\'e}rez-S{\'a}nchez et~al.(2014)P{\'e}rez-S{\'a}nchez,
+  Negr{\'i}n-Hern{\'a}ndez, Garc{\'i}a-Garc{\'i}a, and
+  G{\'o}mez-D{\'e}niz]{perez-sanchez_bayesian_2014}
+J.m. P{\'e}rez-S{\'a}nchez, M.a. Negr{\'i}n-Hern{\'a}ndez,
+  C.~Garc{\'i}a-Garc{\'i}a, and E.~G{\'o}mez-D{\'e}niz.
+\newblock {BAYESIAN} {ASYMMETRIC} {LOGIT} {MODEL} {FOR} {DETECTING} {RISK}
+  {FACTORS} {IN} {MOTOR} {RATEMAKING}.
+\newblock \emph{ASTIN Bulletin}, 44\penalty0 (02):\penalty0 445--457, May 2014.
+\newblock ISSN 1783-1350.
+\newblock \doi{10.1017/asb.2013.32}.
+\newblock URL \url{http://journals.cambridge.org/article_S0515036113000329}.
+
+\bibitem[Pregibon(1980)]{pregibon_goodness_1980}
+Daryl Pregibon.
+\newblock Goodness of {Link} {Tests} for {Generalized} {Linear} {Models}.
+\newblock \emph{Journal of the Royal Statistical Society. Series C (Applied
+  Statistics)}, 29\penalty0 (1):\penalty0 15--14, January 1980.
+\newblock ISSN 0035-9254.
+\newblock \doi{10.2307/2346405}.
+\newblock URL \url{http://www.jstor.org/stable/2346405}.
+
+\bibitem[Prentice(1976)]{prentice_generalization_1976}
+Ross~L. Prentice.
+\newblock A {Generalization} of the {Probit} and {Logit} {Methods} for {Dose}
+  {Response} {Curves}.
+\newblock \emph{Biometrics}, 32\penalty0 (4):\penalty0 761--768, December 1976.
+\newblock ISSN 0006-341X.
+\newblock \doi{10.2307/2529262}.
+\newblock URL \url{http://www.jstor.org/stable/2529262}.
+
+\bibitem[Replogle and Fund(1995)]{replogle_integrating_1995}
+Michael Replogle and Environmental~Defense Fund.
+\newblock \emph{Integrating {Pedestrian} and {Bicycle} {Factors} {Into}
+  {Regional} {Transportation} {Planning} {Models}: {Summary} of the
+  {State}-of-the-art and {Suggested} {Steps} {Forward}}.
+\newblock Environmental Defense Fund Washington, DC, 1995.
+\newblock URL
+  \url{http://media.tmiponline.org/clearinghouse/udes/replogle.pdf}.
+
+\bibitem[S{\'a}ez-Castillo et~al.(2010)S{\'a}ez-Castillo, Olmo-Jim{\'e}nez,
+  P{\'e}rez~S{\'a}nchez, Negr{\'i}n~Hern{\'a}ndez, Arcos-Navarro, and
+  D{\'i}az-Oller]{saez-castillo_bayesian_2010}
+Antonio~Jos{\'e} S{\'a}ez-Castillo, Mar{\'i}a~Jos{\'e} Olmo-Jim{\'e}nez,
+  Jos{\'e}~Mar{\'i}a P{\'e}rez~S{\'a}nchez, Miguel~{\'A}ngel
+  Negr{\'i}n~Hern{\'a}ndez, {\'A}ngel Arcos-Navarro, and Juan D{\'i}az-Oller.
+\newblock Bayesian {Analysis} of {Nosocomial} {Infection} {Risk} and {Length}
+  of {Stay} in a {Department} of {General} and {Digestive} {Surgery}.
+\newblock \emph{Value in Health}, 13\penalty0 (4):\penalty0 431--439, 2010.
+\newblock ISSN 1524-4733.
+\newblock \doi{10.1111/j.1524-4733.2009.00680.x}.
+\newblock URL
+  \url{http://onlinelibrary.wiley.com/doi/10.1111/j.1524-4733.2009.00680.x/abstract}.
+
+\bibitem[SFMTA(2012)]{sfmta_2012_2012}
+SFMTA.
+\newblock 2012 {San} {Francisco} {State} of {Cycling} {Report}.
+\newblock Technical report, San Francisco Municipal Transportation Agency,
+  September 2012.
+\newblock URL
+  \url{http://archives.sfmta.com/cms/rbikes/documents/2012StateofCyclingReport8_9_12.pdf}.
+
+\bibitem[Singleton and Clifton(2013)]{singleton_pedestrians_2013}
+Patrick~A. Singleton and Kelly~J. Clifton.
+\newblock Pedestrians in {Regional} {Travel} {Demand} {Forecasting} {Models}:
+  {State} of the {Practice}.
+\newblock 2013.
+\newblock URL \url{http://trid.trb.org/view.aspx?id=1242847}.
+
+\bibitem[Steinberg and Cardell(1998)]{steinberg_hybrid_1998}
+Dan Steinberg and N.~Scott Cardell.
+\newblock The hybrid {CART}-{Logit} model in classification and data mining.
+\newblock \emph{Salford Systems White Paper}, 1998.
+\newblock URL
+  \url{http://media.salford-systems.com/pdf/the-hybrid-cart-logit-model-in-classification-and-data%20mining-1998.pdf}.
+
+\bibitem[Stukel(1988)]{stukel_generalized_1988}
+Th{\'e}r{\`e}se~A. Stukel.
+\newblock Generalized {Logistic} {Models}.
+\newblock \emph{Journal of the American Statistical Association}, 83\penalty0
+  (402):\penalty0 426--431, June 1988.
+\newblock ISSN 0162-1459.
+\newblock \doi{10.1080/01621459.1988.10478613}.
+\newblock URL
+  \url{http://www.tandfonline.com/doi/abs/10.1080/01621459.1988.10478613}.
+
+\bibitem[St{\"u}ttgen et~al.(2012)St{\"u}ttgen, Boatwright, and
+  Monroe]{stuttgen_satisficing_2012}
+Peter St{\"u}ttgen, Peter Boatwright, and Robert~T. Monroe.
+\newblock A {Satisficing} {Choice} {Model}.
+\newblock \emph{Marketing Science}, 31\penalty0 (6):\penalty0 878--899,
+  September 2012.
+\newblock ISSN 0732-2399.
+\newblock \doi{10.1287/mksc.1120.0732}.
+\newblock URL
+  \url{http://pubsonline.informs.org/doi/abs/10.1287/mksc.1120.0732}.
+
+\bibitem[Swait(2001{\natexlab{a}})]{swait_choice_2001}
+Joffre Swait.
+\newblock Choice set generation within the generalized extreme value family of
+  discrete choice models.
+\newblock \emph{Transportation Research Part B: Methodological}, 35\penalty0
+  (7):\penalty0 643--666, 2001{\natexlab{a}}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0191261500000291}.
+
+\bibitem[Swait(2001{\natexlab{b}})]{swait_non-compensatory_2001}
+Joffre Swait.
+\newblock A non-compensatory choice model incorporating attribute cutoffs.
+\newblock \emph{Transportation Research Part B: Methodological}, 35\penalty0
+  (10):\penalty0 903--928, November 2001{\natexlab{b}}.
+\newblock ISSN 0191-2615.
+\newblock \doi{10.1016/S0191-2615(00)00030-8}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0191261500000308}.
+
+\bibitem[Swait(2009)]{swait_choice_2009}
+Joffre Swait.
+\newblock Choice models based on mixed discrete/continuous {PDFs}.
+\newblock \emph{Transportation Research Part B: Methodological}, 43\penalty0
+  (7):\penalty0 766--783, August 2009.
+\newblock ISSN 0191-2615.
+\newblock \doi{10.1016/j.trb.2009.02.003}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0191261509000216}.
+
+\bibitem[Swait and Ben-Akiva(1987{\natexlab{a}})]{swait_empirical_1987}
+Joffre Swait and Moshe Ben-Akiva.
+\newblock Empirical test of a constrained choice discrete model: {Mode} choice
+  in {S{\~a}o} {Paulo}, {Brazil}.
+\newblock \emph{Transportation Research Part B: Methodological}, 21\penalty0
+  (2):\penalty0 103--115, April 1987{\natexlab{a}}.
+\newblock ISSN 0191-2615.
+\newblock \doi{10.1016/0191-2615(87)90010-5}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/0191261587900105}.
+
+\bibitem[Swait and Ben-Akiva(1987{\natexlab{b}})]{swait_incorporating_1987}
+Joffre Swait and Moshe Ben-Akiva.
+\newblock Incorporating random constraints in discrete models of choice set
+  generation.
+\newblock \emph{Transportation Research Part B: Methodological}, 21\penalty0
+  (2):\penalty0 91--102, April 1987{\natexlab{b}}.
+\newblock ISSN 0191-2615.
+\newblock \doi{10.1016/0191-2615(87)90009-9}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/0191261587900099}.
+
+\bibitem[{U.S. Census Bureau}(2014)]{u.s._census_bureau_b08006:_2014}
+{U.S. Census Bureau}.
+\newblock B08006: {Sex} of {Workers} by {Means} of {Transportation} to {Work}.
+\newblock Technical report, 2014.
+\newblock URL
+  \url{http://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?pid=ACS_14_5YR_B08006&prodType=table}.
+
+\bibitem[Vij and Walker(2014)]{vij_preference_2014}
+Akshay Vij and Joan~L. Walker.
+\newblock Preference endogeneity in discrete choice models.
+\newblock \emph{Transportation Research Part B: Methodological}, 64:\penalty0
+  90--105, June 2014.
+\newblock ISSN 0191-2615.
+\newblock \doi{10.1016/j.trb.2014.02.008}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0191261514000344}.
+
+\bibitem[Vij et~al.(2013)Vij, Carrel, and Walker]{vij_incorporating_2013}
+Akshay Vij, Andr{\'e} Carrel, and Joan~L. Walker.
+\newblock Incorporating the influence of latent modal preferences on travel
+  mode choice behavior.
+\newblock \emph{Transportation Research Part A: Policy and Practice},
+  54:\penalty0 164--178, August 2013.
+\newblock ISSN 0965-8564.
+\newblock \doi{10.1016/j.tra.2013.07.008}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0965856413001304}.
+
+\bibitem[Vijverberg and Vijverberg(2012)]{vijverberg_pregibit:_2012}
+Chu-Ping~C. Vijverberg and Wim P.~M. Vijverberg.
+\newblock Pregibit: {A} {Family} of {Discrete} {Choice} {Models}.
+\newblock {SSRN} {Scholarly} {Paper} ID 2010974, Social Science Research
+  Network, Rochester, NY, February 2012.
+\newblock URL \url{http://papers.ssrn.com/abstract=2010974}.
+
+\bibitem[Vijverberg(2000)]{vijverberg_betit:_2000}
+Wim P.~M. Vijverberg.
+\newblock Betit: {A} {Family} {That} {Nests} {Probit} and {Logit}.
+\newblock {SSRN} {Scholarly} {Paper} ID 264789, Social Science Research
+  Network, Rochester, NY, December 2000.
+\newblock URL \url{http://papers.ssrn.com/abstract=264789}.
+
+\bibitem[Wallace et~al.(2011)Wallace, Small, Brodley, and
+  Trikalinos]{wallace_class_2011}
+Byron~C. Wallace, Kevin Small, Carla~E. Brodley, and Thomas~A. Trikalinos.
+\newblock Class imbalance, redux.
+\newblock In \emph{Data {Mining} ({ICDM}), 2011 {IEEE} 11th {International}
+  {Conference} on}, pages 754--763. IEEE, 2011.
+\newblock URL
+  \url{http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6137280}.
+
+\bibitem[Wang and Dey(2010)]{wang_generalized_2010}
+Xia Wang and Dipak~K. Dey.
+\newblock Generalized {Extreme} {Value} {Regression} for {Binary} {Response}
+  {Data}: {An} {Application} to {B}@{B} {Electronic} {Payments} {System}
+  {Adoption}.
+\newblock \emph{The Annals of Applied Statistics}, 4\penalty0 (4):\penalty0
+  2000--2023, December 2010.
+\newblock ISSN 1932-6157.
+\newblock URL \url{http://www.jstor.org/stable/23362457}.
+
+\bibitem[Weiss(2004)]{weiss_mining_2004}
+Gary~M. Weiss.
+\newblock Mining with {Rarity}: {A} {Unifying} {Framework}.
+\newblock \emph{SIGKDD Explor. Newsl.}, 6\penalty0 (1):\penalty0 7--19, June
+  2004.
+\newblock ISSN 1931-0145.
+\newblock \doi{10.1145/1007730.1007734}.
+\newblock URL \url{http://doi.acm.org/10.1145/1007730.1007734}.
+
+\end{thebibliography}

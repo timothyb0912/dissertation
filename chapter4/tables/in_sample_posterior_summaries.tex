@@ -1,0 +1,45 @@
+\begin{tabular}{K{0.45\linewidth}rrrrrr}
+\toprule
+{} & \multicolumn{3}{c}{MNL} & \multicolumn{3}{c}{Bayesian Model Trees}\\
+Variables & \multicolumn{1}{c}{Mean} & \multicolumn{1}{c}{2.5\%} & \multicolumn{1}{c}{97.5\%} & \multicolumn{1}{c}{Mean} & \multicolumn{1}{c}{2.5\%} & \multicolumn{1}{c}{97.5\%} \tabularnewline
+\midrule
+
+\multicolumn{7}{l}{Alternative Specific Constants}\\
+\quad Shared Ride: 2 & -1.746*\hphantom{*} & -2.282 & -1.231 & -1.787*\hphantom{*} & -2.322 & -1.259\\
+\quad Shared Ride: 3+ & -1.865*\hphantom{*} & -2.378 & -1.345 & -1.909*\hphantom{*} & -2.453 & -1.378\\
+\quad Walk-Transit-Walk & 1.070*\hphantom{*} & 0.495 & 1.623 & 1.078*\hphantom{*} & 0.497 & 1.666\\
+\quad Drive-Transit-Walk & -2.183*\hphantom{*} & -2.969 & -1.431 & -2.223*\hphantom{*} & -3.060 & -1.418\\
+\quad Walk-Transit-Drive & -2.677*\hphantom{*} & -3.537 & -1.886 & -2.734*\hphantom{*} & -3.602 & -1.910\\
+\quad Walk & 2.428*\hphantom{*} & 1.826 & 3.042 & 2.504*\hphantom{*} & 1.885 & 3.149\\
+\quad Bike & 1.087\hphantom{*}\hphantom{*} & -2.573 & 4.854 & 0.171\hphantom{*}\hphantom{*} & -3.419 & 3.738\\
+
+\multicolumn{7}{l}{Travel Time, units:0.1min}\\
+\quad All Auto Modes & -1.113*\hphantom{*} & -1.358 & -0.875 & -1.129*\hphantom{*} & -1.383 & -0.894\\
+\quad All Transit Modes & -0.374*\hphantom{*} & -0.479 & -0.273 & -0.378*\hphantom{*} & -0.486 & -0.276\\
+
+\multicolumn{7}{l}{Travel Cost, units:\$}\\
+\quad All Transit Modes & -0.173*\hphantom{*} & -0.300 & -0.053 & -0.173*\hphantom{*} & -0.301 & -0.048\\
+
+\multicolumn{7}{l}{Travel Distance, units:mi}\\
+\quad Walk & -1.125*\hphantom{*} & -1.299 & -0.960 & -1.151*\hphantom{*} & -1.337 & -0.979\\
+\quad Bike & -0.242\hphantom{*}\hphantom{*} & -0.503 & 0.052 & -0.356*\hphantom{*} & -0.469 & -0.245\\
+
+\multicolumn{7}{l}{Systematic Heterogeneity}\\
+\quad Autos per licensed drivers (All Auto Modes) & 1.181*\hphantom{*} & 0.784 & 1.582 & 1.221*\hphantom{*} & 0.822 & 1.621\\
+\quad Cross-Bay Tour (Shared Ride 2 \& 3+) & -0.517\hphantom{*}\hphantom{*} & -1.264 & 0.167 & -0.518\hphantom{*}\hphantom{*} & -1.286 & 0.201\\
+\quad Household Size (Shared Ride 2 \& 3+) & 0.108\hphantom{*}\hphantom{*} & -0.097 & 0.311 & 0.127\hphantom{*}\hphantom{*} & -0.079 & 0.330\\
+\quad Number of Kids in Household (Shared Ride 2 \& 3+) & 0.662*\hphantom{*} & 0.414 & 0.903 & 0.634*\hphantom{*} & 0.394 & 0.892\\
+
+\multicolumn{7}{l}{Spatial Variables}\\
+\quad Minimum Distance units:mi (Bike) & -0.232\hphantom{*}\hphantom{*} & -0.822 & 0.294 & \_ & \_ & \_\\
+\quad Median Slope units:m/ft (Bike) & -1.433\hphantom{*}\hphantom{*} & -5.046 & 2.304 & \_ & \_ & \_\\
+\quad Mean Speed Limit units:mph (Bike) & -0.064\hphantom{*}\hphantom{*} & -0.206 & 0.072 & \_ & \_ & \_\\
+\quad Proportion of Shortest Path Roads slower than 25mph (Bike) & 0.484\hphantom{*}\hphantom{*} & -0.701 & 1.791 & \_ & \_ & \_\\
+\quad Proportion of Roadways with Bike Lanes (Bike) & 2.218*\hphantom{*} & 0.363 & 4.048 & \_ & \_ & \_\\
+\quad Proportion of Roadways with Bicycle Chevrons (Bike) & -0.765\hphantom{*}\hphantom{*} & -2.647 & 1.108 & \_ & \_ & \_\\
+
+
+\bottomrule
+\multicolumn{7}{l}{Note: * means the equal-tailed 95\% credible interval excludes zero.}\tabularnewline
+\multicolumn{7}{l}{\qquad \hphantom{*} Additionally, bicycle chevrons are another name for ``share the road'' arrows.}
+\end{tabular}

@@ -1,0 +1,11 @@
+\begin{tabular}{lc}
+\toprule
+Model &  Log-Likelihood \\
+\midrule
+Uneven Logit     &         -490.12 \\
+Scobit           &         -494.04 \\
+Asymmetric Logit &         -498.44 \\
+Standard Logit   &         -510.28 \\
+Clog-log         &         -514.63 \\
+\bottomrule
+\end{tabular}

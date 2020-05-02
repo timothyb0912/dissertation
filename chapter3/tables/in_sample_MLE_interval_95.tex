@@ -1,0 +1,48 @@
+\begin{tabular}{K{0.275\linewidth}rrrrrrrrrr}
+\toprule
+{} & \multicolumn{2}{c}{Standard Logit} & \multicolumn{2}{c}{Uneven Logit} & \multicolumn{2}{c}{Scobit} & \multicolumn{2}{c}{Asymmetric Logit} & \multicolumn{2}{c}{Clog-log}\\
+Variables & \multicolumn{1}{c}{2.5\%} & \multicolumn{1}{c}{97.5\%} & \multicolumn{1}{c}{2.5\%} & \multicolumn{1}{c}{97.5\%} & \multicolumn{1}{c}{2.5\%} & \multicolumn{1}{c}{97.5\%} & \multicolumn{1}{c}{2.5\%} & \multicolumn{1}{c}{97.5\%} & \multicolumn{1}{c}{2.5\%} & \multicolumn{1}{c}{97.5\%} \tabularnewline
+\midrule
+
+\multicolumn{11}{l}{Alternative Specific Constants}\\
+\quad Shared Ride: 2 & -1.931 & -0.047 & -1.430 & 0.589 & -0.876 & 0.357 & -2.221 & -0.103 & 0.204 & 1.668\\
+\quad Shared Ride: 3+ & 1.576 & 5.520 & -0.248 & 3.199 & 1.813 & 3.577 & -1.659 & 1.667 & 3.787 & 8.868\\
+\quad Walk-Transit-Walk & -0.978 & 0.162 & -0.599 & 1.097 & 2.767 & 152.961 & -0.786 & 1.087 & -2.176 & -1.313\\
+\quad Drive-Transit-Walk & -3.182 & -2.099 & -4.038 & -2.157 & -1.651 & 98.255 & -0.852 & 0.646 & -4.416 & -3.598\\
+\quad Walk-Transit-Drive & -3.530 & -2.458 & -4.726 & -2.733 & -2.964 & 86.590 & -0.320 & 0.696 & -4.759 & -3.935\\
+\quad Walk & 0.921 & 2.167 & 0.401 & 2.225 & -0.559 & 0.887 & 0.382 & 1.393 & -0.619 & 0.347\\
+\quad Bike & -1.749 & -0.506 & -2.330 & -0.185 & -3.720 & -1.521 & 0.059 & 0.664 & -3.448 & -2.431\\
+
+\multicolumn{11}{l}{Travel Time, units:min}\\
+\quad All Auto Modes & -0.088 & -0.064 & -0.219 & -1.433e-07 & -0.058 & -0.035 & -0.048 & -0.035 & -0.090 & -0.065\\
+\quad All Transit Modes & -0.032 & -0.022 & -0.543 & -1.372e-09 & -0.007 & -2.283e-04 & -0.019 & -0.014 & -0.031 & -0.022\\
+
+\multicolumn{11}{l}{Travel Cost}\\
+\quad Units:\$ All Transit Modes & -0.198 & -0.057 & -3.356 & -4.771e-08 & -0.045 & -0.001 & -0.113 & -0.037 & -0.284 & -0.131\\
+\quad Units:\$/mi Drive Alone & -7.788 & -2.430 & -30.563 & -1.745e-05 & -7.662 & -2.792 & -3.918 & -0.281 & -13.308 & -8.666\\
+\quad Units:\$/mi SharedRide-2 & -29.275 & -10.988 & -89.650 & -3.643e-05 & -16.506 & -8.174 & -11.680 & -3.460 & -54.964 & -39.743\\
+\quad Units:\$/mi SharedRide-3+ & -119.584 & -64.001 & -164.792 & -7.217e-05 & -39.785 & -24.566 & -24.861 & -6.904 & -177.254 & -108.096\\
+
+\multicolumn{11}{l}{Travel Distance, units:mi}\\
+\quad Walk & -1.139 & -0.906 & -1.321 & -1.098e-04 & -4.743 & -1.058 & -0.566 & -0.212 & -1.093 & -0.865\\
+\quad Bike & -0.345 & -0.224 & -10.468 & -3.629e-07 & -0.825 & -0.268 & -0.197 & -0.107 & -0.317 & -0.206\\
+
+\multicolumn{11}{l}{Systematic Heterogeneity}\\
+\quad Autos per licensed drivers (All Auto Modes) & 0.918 & 1.512 & 1.872e-06 & 1.982 & 0.444 & 0.783 & 0.346 & 0.612 & 0.527 & 0.991\\
+\quad Cross-Bay Tour (Shared Ride 2 \& 3+) & 0.347 & 1.521 & 2.801e-06 & 5.112 & 0.596 & 1.260 & 0.257 & 0.827 & 1.056 & 2.350\\
+\quad Household Size (Shared Ride 2 \& 3+) & 0.019 & 0.207 & 3.761e-07 & 0.301 & 0.030 & 0.121 & 0.018 & 0.092 & -0.021 & 0.169\\
+\quad Number of Kids in Household (Shared Ride 2 \& 3+) & 0.573 & 0.806 & 1.076e-06 & 1.269 & 0.258 & 0.414 & 0.199 & 0.297 & 0.556 & 0.791\\
+
+\multicolumn{11}{l}{Shape Parameters}\\
+\quad Drive Alone & \_ & \_ & -1.153 & 13.071 & 0.191 & 0.707 & \_ & \_ & \_ & \_\\
+\quad Shared Ride: 2 & \_ & \_ & -0.917 & 13.360 & 0.521 & 1.022 & 0.306 & 2.571 & \_ & \_\\
+\quad Shared Ride: 3+ & \_ & \_ & -0.602 & 13.593 & 0.767 & 1.209 & -4.252 & 3.251 & \_ & \_\\
+\quad Walk-Transit-Walk & \_ & \_ & -2.844 & 17.100 & 1.820 & 5.406 & -4.908 & 0.601 & \_ & \_\\
+\quad Drive-Transit-Walk & \_ & \_ & -3.240 & 16.587 & 1.528 & 5.018 & -4.315 & 3.418 & \_ & \_\\
+\quad Walk-Transit-Drive & \_ & \_ & -3.396 & 16.319 & 1.388 & 4.898 & -4.806 & -1.146 & \_ & \_\\
+\quad Walk & \_ & \_ & -2.464 & 6.929 & -1.688 & -0.046 & -3.461 & 0.515 & \_ & \_\\
+\quad Bicycle & \_ & \_ & -3.502 & 13.289 & -1.517 & 0.166 & -2.885 & 1.539 & \_ & \_\\
+
+
+\bottomrule
+\end{tabular}

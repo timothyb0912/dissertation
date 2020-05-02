@@ -1,0 +1,36 @@
+\begin{tabular}{K{0.5\linewidth} rrrr}
+\toprule
+{} & \multicolumn{2}{c}{Standard Logit} & \multicolumn{2}{c}{Hybrid Tree-Logit} \\
+Variables & \multicolumn{1}{c}{Parameter} & \multicolumn{1}{c}{$t$-Stat} & \multicolumn{1}{c}{Parameter} & \multicolumn{1}{c}{$t$-Stat} \tabularnewline
+\midrule
+
+ASC Shared Ride: 2 & -2.737 & -11.833** & -2.717 & -11.715** \\
+ASC Shared Ride: 3+ & -2.852 & -12.228** & -2.831 & -12.110** \\
+ASC Walk-Transit-Walk & -0.215 & -0.593\hphantom{*}\hphantom{*} & -0.167 & -0.462\hphantom{*}\hphantom{*} \\
+ASC Drive-Transit-Walk & -3.414 & -7.332** & -3.370 & -7.237** \\
+ASC Walk-Transit-Drive & -3.949 & -8.212** & -3.907 & -8.125** \\
+ASC Walk & 1.421 & 5.281** & 1.404 & 5.228** \\
+ASC Bike & -0.950 & -3.402** & -3.291 & -5.297** \\
+Travel Time, units:min (All Auto Modes) & -0.112 & -7.912** & -0.112 & -7.887** \\
+Travel Time, units:min (All Transit Modes) & -0.029 & -6.854** & -0.029 & -6.970** \\
+Travel Cost, units:\$ (All Transit Modes) & -0.123 & -1.432\hphantom{*}\hphantom{*} & -0.124 & -1.442\hphantom{*}\hphantom{*}  \\
+Travel Distance, units:mi (Walk) & -1.103 & -12.535** & -1.096 & -12.475** \\
+Travel Distance, units:mi (Bike) & -0.345 & -7.470** & -0.219 & -4.066** \\
+Household Size (Shared Ride 2 \& 3+) & 0.593 & 9.774** & 0.585 & 9.618** \\
+Cross-Bay Tour (All Transit Modes) & 1.037 & 2.109*\hphantom{*} & 1.056 & 2.146*\hphantom{*} \\
+Node 1 (Bike) & \_ & \_ & 1.402 & 2.816** \\
+Node 2 (Bike) & \_ & \_ & 0.926 & 1.066\hphantom{*}\hphantom{*} \\
+Node 3 (Bike) & \_ & \_ & 1.928 & 2.369*\hphantom{*}  \\
+Node 4 (Bike) & \_ & \_ & 4.238 & 6.338** \\
+Node 5 (Bike) & \_ & \_ & 2.370 & 3.798** \\
+Node 6 (Bike) & \_ & \_ & 4.583 & 4.931** \\
+Node 7 (Bike) & \_ & \_ & 2.612 & 3.585** \\
+Node 8 (Bike) & \_ & \_ & 1.483 & 2.145*\hphantom{*}  \\
+
+\multicolumn{5}{c}{}\tabularnewline
+Log-likelihood & -1,409.071 & \multicolumn{1}{c}{} & -1,372.327 & \multicolumn{1}{c}{} \tabularnewline
+
+\bottomrule
+\multicolumn{5}{l}{Note: * means $\textrm{p-value} < 0.05$ and ** means $\textrm{p-value} < 0.01$.} \\
+\multicolumn{5}{l}{\hphantom{Note: }\_ means the corresponding values do not apply to the given model.}\\
+\end{tabular}

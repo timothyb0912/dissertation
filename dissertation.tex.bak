@@ -1,0 +1,186 @@
+%% thesis.tex 2014/04/11
+% Based on sample files of unknown authorship.
+% The Current Maintainer of this work is Paul Vojta.
+
+\documentclass{ucbthesis}
+
+% Use Natbib for handling the bibliography
+\usepackage[round,
+				    authoryear,
+				    colon,
+				    sectionbib]{natbib} 
+
+% For getting bibliographies in each section
+\usepackage{chapterbib}
+
+% Use AMS packages for math
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+
+\usepackage{hyperref}    % for making the table of contents clickable
+\hypersetup{linktoc=all}
+
+% For accents over letters
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+% For highlighting
+\usepackage{color, soul}
+
+\usepackage{url}    %for handling of urls in bibtex file
+\def\UrlBreaks{\do\/\do-}    %use to break urls at hyphens
+
+\usepackage{tikz}  % for the causal diagram in chapter 5
+\usetikzlibrary{arrows, decorations.pathmorphing, backgrounds, positioning, fit, shapes.geometric, arrows.meta}
+
+\usepackage{graphicx}
+\newcommand{\indep}{\rotatebox[origin=c]{90}{$\models$}} % to get an "independent" symbol
+
+\usepackage{pdflscape}    % for landscape orientation of pages
+
+\usepackage{booktabs}    % for making tables pretty
+\usepackage{caption}
+
+\usepackage{array}
+\newcolumntype{K}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}    %for having a single variable width column
+
+\usepackage{tabularx}    % for handling tables with variable width columns and text wrapping
+\usepackage{tabulary}     % for handling tables with variable width columns and text wrapping
+
+% To create a chapter abstract environment
+\newenvironment{chapterabstract}{%
+  \par\nobreak\noindent
+  \textbf{\textit{Abstract}\hrulefill}\par\nobreak
+  \small
+  \noindent\ignorespaces
+}{%
+  \par\nobreak\normalsize
+  \vskip-\ht\strutbox\noindent
+  \textbf{\hrulefill}%
+}
+
+
+% To compile this file, run "pdflatex dissertation.tex", then "bibtex dissertation.aux"
+% and then "pdflatex dissertation.tex" twice (without the quotes in each case).
+
+% Double spacing, if you want it.  Do not use for the final copy.
+% \def\dsp{\def\baselinestretch{2.0}\large\normalsize}
+% \dsp
+
+% If the Grad. Division insists that the first paragraph of a section
+% be indented (like the others), then include this line:
+% \usepackage{indentfirst}
+
+% The line below declares the title that will be shown for new theorems
+\newtheorem{theorem}{Theorem}
+
+% The commands below declares hyphenation points for the listed
+% words.
+%\hyphenation{mar-gin-al-ia}
+%\hyphenation{bra-va-do}
+
+\begin{document}
+
+% Declarations for Front Matter
+%\title{Improving the Policy Relevance and Accuracy of Bicycle Demand Models}
+\title{The Holy Trinity:\\Blending Statistics, Machine Learning and Discrete Choice,\\with Applications to Strategic Bicycle Planning}
+\author{Timothy Brathwaite}
+\degreesemester{Summer}
+\degreeyear{2018}
+\degree{Doctor of Philosophy}
+\chair{Professor Joan Walker}
+\othermembers{Assistant Professor William Fithian \\
+  					   Assistant Professor Alexei Pozdnoukhov}
+\numberofmembers{3}
+\field{Engineering - Civil and Environmental Engineering}
+
+\maketitle
+
+% Delete (or comment out) the \approvalpage line for the final version.
+%\approvalpage
+\copyrightpage
+
+\include{abstract/v2/abstract}
+
+\begin{frontmatter}
+
+\begin{dedication}
+\null\vfil
+\begin{center}
+\textit{To Carla and Keturah for their steadfast love and support, \newline
+and to Andrew and Darren for teaching me to ride without fear.}
+
+\end{center}
+\vfil\null
+\end{dedication}
+
+% You can delete the \clearpage lines if you don't want these to start on
+% separate pages.
+
+\tableofcontents
+\clearpage
+\listoffigures
+\clearpage
+\listoftables
+
+\begin{acknowledgements}
+This dissertation was made possible by the love, support, encouragement, teaching, and guidance of a vast community of people---only a handful of whom  I can acknowledge here. Beginning with this dissertation's focus, I'll start by acknowledging Andrew Malone and Darren Lee. Without you two, I may never have made bicycling such a central part of my identity, and this work would have felt much less personally meaningful. Likewise, thanks also to Frank Proulx, for demonstrating that a topic as planner-y as bicycling could be the subject of quantitative academic inquiry, even in engineering. Thanks for always being one step ahead in life, proofreading all of my papers, and paving the way for me overall.
+
+Scholastically, thanks are due first and foremost to my advisor, Professor Joan Walker. Thank you for giving me the space to grow academically and to explore whatever topics I was interested in, even when you suggested otherwise. Thanks for caring when others appeared not to and working to keep me enrolled. Thanks for having brilliant suggestions when I most needed them, for showing me ``how to write in a way that it makes a difference,'' and for teaching me the importance of ``motivating the problem.'' It has been a privilege to work with you and learn from you. Next, thanks to my committee members:  Assistant Professors William Fithian and Alexei Pozdnoukhov. Thank you Will, for the refreshing enthusiasm with which you engaged my research and the time you spent talking through details with me. Alexei, thanks for always questioning the ``established'' interpretations of my models, for challenging me to think predictively, and for encouraging a healthy sense of skepticism. Lastly, thank you Akshay Vij for (without exaggeration) being the absolute best. Thanks for spending hours putting me on an academically expedient path, for showing me how discrete choice worked ``from the code up,'' for talking me out of quitting, for sharing your struggles with me, and for being a shining exemplar of all I wanted to be. You made this dissertation intellectually possible. To UCCONNECT and Paul Waddell, thanks for funding me and making this dissertation financially possible.
+
+Socially, the list of those to thank is truly massive, and for those not mentioned in name, know that I am still so grateful for all your support. Thanks to: \begin{itemize}
+\item Aaron Dolor for being a shoulder to lean on and a constant partner in this academic journey for over a decade now--from Brooklyn to the Bay.
+\item Feras `N'zali' El Zarwi and Sreeta Gorripaty for being my two complementary stooges and accompanying me on the crazy ride that was these past three (four?) years.
+\item Jes$\grave{\textrm{u}}$s Cuellar for being my company in despair, my brother from another mother, and the best friend one could ask for.
+\item Darren Reger for being a constant source of laughter, and for seeing me at my absolute worst and still believing I had something to offer at my best.
+\item Ari Takata-Vasquez and Miles Bianchi for giving me perspective on life, always being willing to grab a beer when I was down, and reminding me of the importance of sleep.
+\item Yi Liu for showing us how to explain complicated topics simply, for demonstrating the meaning of ``lifelong learner,'' and for reaffirming that it's okay to leave the ivory tower.
+\item Howard ``Skip'' Nedrick for always checking in on me from thousands of miles away, and for never disowning me after I disappeared for months at a time.
+\item Lewis Lehe for being the student I aspired to be and for showing me that it wasn't magic to get there. Thanks for introducing me to Python and changing my life.
+\item Michael Taptich for showing me the power of computers and visualization, for helping me get jobs, and for being company through all these years.
+\item Jinwoo Lee, Yangqiao Wang, Andy Mao, and Han Cheng for showing me the meaning of hard work, for keeping me company in the office at \textit{all} hours of the day/night, and for being there during the lonely times of the PhD.
+\item DJ Gaker, Tierra Bills, Celeste Chavis, and Karthik Sivakumaran for their parting wisdom and for showing me that finishing a PhD is hard but not impossible.
+\item Kendra Levine for providing a home for all the transportation students.
+\item Eunice Poon for her care and companionship through the struggle.
+\end{itemize}
+
+To the 116 crew, past and present, thanks for providing a nurturing and fun office. There's no place else I would have rather completed this program. To my first plangineer cohort, thank you all for being the best group of transponerds that one could ask for. Thanks for making me go home when I needed to, and for being there to work hard with me when it was necessary. You are all my friends for life. To the planners and engineers that continually welcomed me into their ranks, thank you all for providing the friendship that made Berkeley truly enjoyable. Thank you to the planners for challenging me to focus on the societally important problems, and to the engineers for challenging me to use the most rigorous methods available. Thanks to Wurster Nightmares (both soccer and dodgeball), the Transoccers, and Spices3/1/10/x for being fantastic exercise partners and teammates.
+
+Thanks to Lauren Lastrapes for showing me the power of an emotionally invested professor and for writing a letter that provided constant encouragement during my graduate school career. Thank you Laura Kappel and Professor Niyi Osundare for both believing so much in me, even at a time when I had done little to merit such faith.
+
+Finally, for my family. Thank you to my sisters, Carla and Keturah. Words fail to express how much I owe you both for all of my current successes. Thank you for sacrificing so much to give me the best chances at a good life, and thank you for continuing to love me as I selfishly isolated myself in graduate school. This dissertation is dedicated to you two.
+
+To my parents, thank you. For all your sacrifices, for continuing to wish nothing but the best for me, and for always trying to help in whatever way you deemed best. Thank you for working so hard to get me over the ``finish line.'' It's been said that the race is not to the swift but to those who endure, and I thank you two for supporting me the entire way.
+
+\end{acknowledgements}
+
+\end{frontmatter}
+
+\pagestyle{headings}
+
+% (Optional) \part{First Part}
+\include{chapter1/current/ch1}
+
+%\clearpage
+\include{chapter2/current/ch2}
+
+%\clearpage
+\include{chapter3/current/ch3}
+
+%\clearpage
+\include{chapter4/current/ch4}
+
+%\clearpage
+\include{chapter5/current/ch5}
+
+%\clearpage
+\include{conclusion/current/conclusion}
+
+% \appendix
+% \chapter{More Monticello Candidates}
+
+%\bibliographystyle{plainnat}
+%\bibliography{dissertation}
+
+\end{document}

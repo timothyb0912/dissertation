@@ -1,0 +1,108 @@
+\begin{thebibliography}{13}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[{California Department of
+  Transportation}(2013)]{california_department_of_transportation_2010-2012_2013}
+{California Department of Transportation}.
+\newblock 2010-2012 {California} {Household} {Travel} {Survey} {Final}
+  {Report}.
+\newblock Technical report, June 2013.
+\newblock URL \url{http://www.dot.ca.gov/hq/tsip/FinalReport.pdf}.
+
+\bibitem[Commission and
+  Brinckerhoff(2012)]{san_francisco_metropolitan_transportation_commission_travel_2012}
+San Francisco Metropolitan~Transportation Commission and Parsons Brinckerhoff.
+\newblock Travel {Model} {Development}: {Calibration} and {Validation}.
+\newblock Technical report, San Francisco Metropolitan Transportaton
+  Commission, May 2012.
+\newblock URL
+  \url{http://mtcgis.mtc.ca.gov/foswiki/pub/Main/Documents/2012_05_18_RELEASE_DRAFT_Calibration_and_Validation.pdf}.
+
+\bibitem[Dill and Gliebe(2008)]{dill_understanding_2008}
+Jennifer Dill and John Gliebe.
+\newblock Understanding and {Measuring} {Bicycling} {Behavior}: a {Focus} on
+  {Travel} {Time} and {Route} {Choice}.
+\newblock \emph{Urban Studies and Planning Faculty Publications and
+  Presentations}, December 2008.
+\newblock URL \url{http://pdxscholar.library.pdx.edu/usp_fac/28}.
+
+\bibitem[Efron(1983)]{efron_1983_estimating}
+Bradley Efron.
+\newblock {Estimating the error rate of a prediction rule: improvements on
+  cross- validation.}
+\newblock \emph{Journal of the American Statistical Association}, 78:\penalty0
+  316--331, 1983.
+
+\bibitem[Efron and Tibshirani(1997)]{efron_1997_improvements}
+Bradley Efron and Robert Tibshirani.
+\newblock {Improvements on cross-validation: The .632+ bootstrap methods.}
+\newblock \emph{Journal of the American Statistical Association}, 92:\penalty0
+  548--560, 1997.
+
+\bibitem[Ewing and Cervero(2001)]{ewing_travel_2001}
+Reid Ewing and Robert Cervero.
+\newblock Travel and the {Built} {Environment}: {A} {Synthesis}.
+\newblock \emph{Transportation Research Record: Journal of the Transportation
+  Research Board}, 1780:\penalty0 87--114, January 2001.
+\newblock ISSN 0361-1981.
+\newblock \doi{10.3141/1780-10}.
+\newblock URL \url{http://trrjournalonline.trb.org/doi/abs/10.3141/1780-10}.
+
+\bibitem[Goetzke(2003)]{goetzke_are_2003}
+Frank Goetzke.
+\newblock \emph{Are {Travel} {Demand} {Forecasting} {Models} {Biased} because
+  of {Uncorrected} {Spatial} {Autocorrelation}? {By}}.
+\newblock 2003.
+
+\bibitem[Guo et~al.(2007)Guo, Bhat, and Copperman]{guo_effect_2007}
+Jessica Guo, Chandra Bhat, and Rachel Copperman.
+\newblock Effect of the {Built} {Environment} on {Motorized} and {Nonmotorized}
+  {Trip} {Making}: {Substitutive}, {Complementary}, or {Synergistic}?
+\newblock \emph{Transportation Research Record: Journal of the Transportation
+  Research Board}, 2010:\penalty0 1--11, January 2007.
+\newblock ISSN 0361-1981.
+\newblock \doi{10.3141/2010-01}.
+\newblock URL \url{http://trrjournalonline.trb.org/doi/10.3141/2010-01}.
+
+\bibitem[Kim and Loh(2001)]{kim_2001_classification}
+Hyunjoong Kim and Wei-Yin Loh.
+\newblock Classification trees with unbiased multiway splits.
+\newblock \emph{Journal of the American Statistical Association}, 96\penalty0
+  (454):\penalty0 589--604, 2001.
+
+\bibitem[Nassir et~al.(2014)Nassir, Ziebarth, Sall, and
+  Zorn]{nassir_choice_2014}
+Neema Nassir, Jennifer Ziebarth, Elizabeth Sall, and Lisa Zorn.
+\newblock A {Choice} {Set} {Generation} {Algorithm} {Suitable} for {Measuring}
+  {Route} {Choice} {Accessibility}.
+\newblock 2014.
+\newblock URL \url{http://trid.trb.org/view/2014/C/1289516}.
+
+\bibitem[Replogle and Fund(1995)]{replogle_integrating_1995}
+Michael Replogle and Environmental~Defense Fund.
+\newblock \emph{Integrating {Pedestrian} and {Bicycle} {Factors} {Into}
+  {Regional} {Transportation} {Planning} {Models}: {Summary} of the
+  {State}-of-the-art and {Suggested} {Steps} {Forward}}.
+\newblock Environmental Defense Fund Washington, DC, 1995.
+\newblock URL
+  \url{http://media.tmiponline.org/clearinghouse/udes/replogle.pdf}.
+
+\bibitem[Singleton and Clifton(2013)]{singleton_pedestrians_2013}
+Patrick~A. Singleton and Kelly~J. Clifton.
+\newblock Pedestrians in {Regional} {Travel} {Demand} {Forecasting} {Models}:
+  {State} of the {Practice}.
+\newblock 2013.
+\newblock URL \url{http://trid.trb.org/view.aspx?id=1242847}.
+
+\bibitem[Steinberg and Cardell(1998)]{steinberg_hybrid_1998}
+Dan Steinberg and N.~Scott Cardell.
+\newblock The hybrid {CART}-{Logit} model in classification and data mining.
+\newblock \emph{Salford Systems White Paper}, 1998.
+\newblock URL
+  \url{http://media.salford-systems.com/pdf/the-hybrid-cart-logit-model-in-classification-and-data%20mining-1998.pdf}.
+
+\end{thebibliography}

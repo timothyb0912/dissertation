@@ -1,0 +1,14 @@
+\begin{tabular}{K{0.325\linewidth}K{0.25\linewidth}cc}
+\toprule
+\multicolumn{1}{c}{Model} &  \multicolumn{1}{c}{$S \left( \cdot \right)$} & Shape Parameters & Constraints\\
+\midrule
+Exponential &  $- \log \left( V_{ij} \right)$ & N/A & $ V_{ij} > 0$\\
+Rayleigh & $- 2 \log \left( V_{ij} \right)$ & N/A & $ V_{ij} > 0$ \\
+Weibull &  $- \gamma \log \left( V_{ij} \right)$  & $\gamma$ & $ V_{ij}, \gamma > 0$\\
+Pareto & $ \log \left( V_{ij} \right) - \log \left( V_{ij} - 1 \right)$ & N/A & $ V_{ij} > 1$ \\
+Type II Generalized Logistic & $ \log \left[ \psi ^{-1}  \left( \psi \left( 1 \right) - \psi \left( V_{ij} \right) \right) \right]$ & N/A & $V_{ij} \notin \left\lbrace 0, -1, -2, ... \right\rbrace$ \\
+\citet{das_generalized_2014} & $$\begin{array}{c}\frac{\left( 1 + V_{ij} \right)^{\gamma_{1j}} - 1}{\gamma_{1j}} \textrm{ if } V_{ij} \geq 0 \\[1.5ex] -\frac{\left( 1 - V_{ij} \right)^{\gamma_{2j}} - 1}{\gamma_{2j}} \textrm{ if } V_{ij} < 0 \end{array}$$ & $\gamma_j = \left[ \gamma_{1j}, \gamma_{2j} \right] \forall j$ & N/A\\
+q-GEV \citep{nakayama_unified_2015} & $\frac{1}{1 - \gamma} \log \left[ 1 + \left( \gamma - 1 \right) V_{ij} \right]$ & $\gamma$ & $V_{ij} > \frac{-1}{\gamma - 1}$\\
+\bottomrule
+\multicolumn{4}{l}{Note $\psi \left( x \right) = \tfrac{\partial \log \left[ \Gamma \left( x \right) \right]}{\partial x }$ where $\Gamma \left( x \right)$ is the gamma function and N/A means ``not applicable.''}
+\end{tabular}

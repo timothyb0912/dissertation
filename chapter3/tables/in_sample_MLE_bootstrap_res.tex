@@ -1,0 +1,55 @@
+\begin{tabular}{K{0.275\linewidth}rrrrr}
+\toprule
+{}
+Variables & \multicolumn{1}{c}{Standard Logit} & \multicolumn{1}{c}{Uneven Logit} & \multicolumn{1}{c}{Scobit} & \multicolumn{1}{c}{Asymmetric Logit} & \multicolumn{1}{c}{Clog-log} \tabularnewline
+\midrule
+
+\multicolumn{6}{l}{Alternative Specific Constants}\\
+\quad Shared Ride: 2 & -1.010*\hphantom{*} & -0.806\hphantom{*}\hphantom{*} & -0.280\hphantom{*}\hphantom{*} & -1.242** & 0.969*\hphantom{*}\\
+\quad Shared Ride: 3+ & 3.462** & 0.443\hphantom{*}\hphantom{*} & 2.596** & -0.724\hphantom{*}\hphantom{*} & 6.316*\hphantom{*}\\
+\quad Walk-Transit-Walk & -0.392\hphantom{*}\hphantom{*} & 0.350\hphantom{*}\hphantom{*} & 11.524*\hphantom{*} & 0.490\hphantom{*}\hphantom{*} & -1.741**\\
+\quad Drive-Transit-Walk & -2.622** & -3.002** & 4.388\hphantom{*}\hphantom{*} & 0.443\hphantom{*}\hphantom{*} & -4.001**\\
+\quad Walk-Transit-Drive & -2.977** & -3.686** & 2.566\hphantom{*}\hphantom{*} & 0.451\hphantom{*}\hphantom{*} & -4.345**\\
+\quad Walk & 1.554** & 1.626** & 0.156\hphantom{*}\hphantom{*} & 0.852** & -0.117\hphantom{*}\hphantom{*}\\
+\quad Bike & -1.106** & -0.957** & -2.669** & 0.211*\hphantom{*} & -2.903**\\
+
+\multicolumn{6}{l}{Travel Time, units:min}\\
+\quad All Auto Modes & -0.076** & -4.376e-06** & -0.046** & -0.042** & -0.078**\\
+\quad All Transit Modes & -0.027** & -0.364** & -0.003** & -0.016** & -0.026**\\
+
+\multicolumn{6}{l}{Travel Cost}\\
+\quad Units:\$ All Transit Modes & -0.127** & -1.718** & -0.015** & -0.080** & -0.210**\\
+\quad Units:\$/mi Drive Alone & -5.061** & -3.718e-04** & -4.701** & -2.465*\hphantom{*} & -10.955**\\
+\quad Units:\$/mi SharedRide-2 & -20.319** & -0.001** & -11.941** & -7.859** & -47.736*\hphantom{*}\\
+\quad Units:\$/mi SharedRide-3+ & -90.922** & -0.002** & -32.494** & -16.531** & -141.947*\hphantom{*}\\
+
+\multicolumn{6}{l}{Travel Distance, units:mi}\\
+\quad Walk & -1.027** & -0.852** & -2.090** & -0.444** & -0.982**\\
+\quad Bike & -0.287** & -0.211** & -0.465** & -0.164** & -0.263**\\
+
+\multicolumn{6}{l}{Systematic Heterogeneity}\\
+\quad Autos per licensed drivers (All Auto Modes) & 1.213** & 6.204e-05** & 0.597** & 0.452** & 0.764**\\
+\quad Cross-Bay Tour (Shared Ride 2 \& 3+) & 0.928** & 7.841e-05** & 0.906** & 0.549** & 1.707**\\
+\quad Household Size (Shared Ride 2 \& 3+) & 0.114*\hphantom{*} & 9.474e-06** & 0.074** & 0.053** & 0.073\hphantom{*}\hphantom{*}\\
+\quad Number of Kids in Household (Shared Ride 2 \& 3+) & 0.687** & 3.587e-05** & 0.327** & 0.248** & 0.682**\\
+
+\multicolumn{6}{l}{Shape Parameters}\\
+\quad Drive Alone & \_\hphantom{*}\hphantom{*} & 9.716\hphantom{*}\hphantom{*} & 0.503** & \_\hphantom{*}\hphantom{*} & \_\hphantom{*}\hphantom{*}\\
+\quad Shared Ride: 2 & \_\hphantom{*}\hphantom{*} & 10.000\hphantom{*}\hphantom{*} & 0.804** & 2.009** & \_\hphantom{*}\hphantom{*}\\
+\quad Shared Ride: 3+ & \_\hphantom{*}\hphantom{*} & 10.190\hphantom{*}\hphantom{*} & 0.987** & 2.806\hphantom{*}\hphantom{*} & \_\hphantom{*}\hphantom{*}\\
+\quad Walk-Transit-Walk & \_\hphantom{*}\hphantom{*} & -2.469\hphantom{*}\hphantom{*} & 2.917** & -1.342\hphantom{*}\hphantom{*} & \_\hphantom{*}\hphantom{*}\\
+\quad Drive-Transit-Walk & \_\hphantom{*}\hphantom{*} & -2.820\hphantom{*}\hphantom{*} & 2.565*\hphantom{*} & -3.584\hphantom{*}\hphantom{*} & \_\hphantom{*}\hphantom{*}\\
+\quad Walk-Transit-Drive & \_\hphantom{*}\hphantom{*} & -2.935\hphantom{*}\hphantom{*} & 2.434*\hphantom{*} & -3.953*\hphantom{*} & \_\hphantom{*}\hphantom{*}\\
+\quad Walk & \_\hphantom{*}\hphantom{*} & 0.146\hphantom{*}\hphantom{*} & -0.811*\hphantom{*} & -0.958\hphantom{*}\hphantom{*} & \_\hphantom{*}\hphantom{*}\\
+\quad Bicycle & \_\hphantom{*}\hphantom{*} & 0.279\hphantom{*}\hphantom{*} & -0.662\hphantom{*}\hphantom{*} & -1.632\hphantom{*}\hphantom{*} & \_\hphantom{*}\hphantom{*}\\
+
+
+\multicolumn{6}{c}{}\tabularnewline
+
+Log-Likelihood Ratio Stat. & \_\hphantom{*}\hphantom{*} & 410.148** & 341.273** & 264.828** & \_\hphantom{*}\hphantom{*}\\
+
+Log-Likelihood & -5,073.428 & -4,868.354 & -4,902.791 & -4,941.014 & -5,116.066\\
+
+\bottomrule
+\multicolumn{6}{l}{Note: * means $\textrm{p-value} < 0.05$ and ** means $\textrm{p-value} < 0.01$.}
+\end{tabular}

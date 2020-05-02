@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: ch3.aux
+The style file: plainnat.bst
+Database file #1: ch3.bib
+Warning--there's a number but no volume in brog_individualized1998
+Warning--empty publisher in buja_loss_2005
+Warning--empty institution in california_department_of_transportation_2010-2012_2013
+Warning--empty booktitle in horowitz_semiparametric_1993
+Warning--empty journal in jones_scipy_2014
+Warning--there's a number but no volume in mcfadden_conditional_1972
+You've used 85 entries,
+            2773 wiz_defined-function locations,
+            1234 strings with 23672 characters,
+and the built_in function-call counts, 39442 in all, are:
+= -- 3933
+> -- 1691
+< -- 77
++ -- 588
+- -- 502
+* -- 3294
+:= -- 6133
+add.period$ -- 412
+call.type$ -- 85
+change.case$ -- 414
+chr.to.int$ -- 84
+cite$ -- 176
+duplicate$ -- 1767
+empty$ -- 3317
+format.name$ -- 642
+if$ -- 8265
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 89
+newline$ -- 586
+num.names$ -- 346
+pop$ -- 611
+preamble$ -- 1
+purify$ -- 333
+quote$ -- 0
+skip$ -- 1235
+stack$ -- 0
+substring$ -- 1939
+swap$ -- 181
+text.length$ -- 12
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 895
+warning$ -- 6
+while$ -- 406
+width$ -- 0
+write$ -- 1419
+(There were 6 warnings)

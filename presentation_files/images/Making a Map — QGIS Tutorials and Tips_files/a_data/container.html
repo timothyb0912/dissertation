@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang=""><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <script type="text/javascript" src="container_data/traverse-container.js"> </script>
+
+    <script type="text/javascript">
+        var getParamsFromUrl = function() {
+          var query = location.search.substr(1);
+          var result = {};
+          var part;
+          var queryParts = query.split("&");
+          for (var i = 0; i < queryParts.length; i++){
+            part = queryParts[i];
+            if(part){
+              part = part.split("+").join(" ");
+              var eq = part.indexOf("=");
+              var key = eq>-1 ? part.substr(0,eq) : part;
+              var val = eq>-1 ? decodeURIComponent(part.substr(eq+1)) : "";
+              var from = key.indexOf("[");
+              if(from==-1) result[decodeURIComponent(key)] = val;
+              else {
+                var to = key.indexOf("]");
+                var index = decodeURIComponent(key.substring(from+1,to));
+                key = decodeURIComponent(key.substring(0,from));
+                if(!result[key]) result[key] = [];
+                if(!index) result[key].push(val);
+                else result[key][index] = val;
+              }
+            }
+          }
+          return result;
+        }
+        var urlParams = getParamsFromUrl();
+
+        TraverseContainer.start(urlParams);
+    </script>
+  
+
+<iframe src="container_data/container.html" border="0" id="traverse-container" class="traverse" height="0" frameborder="0" width="0"></iframe></body></html>

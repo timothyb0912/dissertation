@@ -1,0 +1,35 @@
+\begin{tabular}{K{0.21\linewidth}ccccc}
+\toprule
+{} &  Standard Logit &  Asymmetric Logit &  Uneven Logit &  Scobit &  Clog-log \\
+Variables & Posterior Mean & Posterior Mean & Posterior Mean & Posterior Mean & Posterior Mean \tabularnewline
+\midrule
+
+ASC Shared Ride: 2 & -2.735* & -2.197* & -2.429* & -1.812* & \_\\
+ASC Shared Ride: 3+ & -2.847* & -2.270* & -1.568* & -0.513\hphantom{*} & \_\\
+ASC Walk-Transit-Walk & -0.165\hphantom{*} & -0.725\hphantom{*} & 1.509\hphantom{*} & -0.192\hphantom{*} & \_\\
+ASC Drive-Transit-Walk & -3.404* & -1.373\hphantom{*} & -6.365* & -6.532* & \_\\
+ASC Walk-Transit-Drive & -3.958* & -1.581\hphantom{*} & -6.854* & -6.559* & \_\\
+ASC Walk & 1.436* & -0.183\hphantom{*} & 3.015* & 2.153* & \_\\
+ASC Bike & -0.951* & -0.890\hphantom{*} & 0.157\hphantom{*} & -1.013\hphantom{*} & \_\\
+Travel Time, units:min (All Auto Modes) & -0.112* & -0.047* & -0.110* & -0.147* & 5.479*\\
+Travel Time, units:min (All Transit Modes) & -0.029* & -0.014* & -0.064* & -3.048* & 2.927*\\
+Travel Cost, units:\$ (All Transit Modes) & -0.133\hphantom{*} & -0.059\hphantom{*} & -0.376\hphantom{*} & -1.965\hphantom{*} & -0.025\hphantom{*}\\
+Travel Distance, units:mi (Walk) & -1.111* & -0.538* & -1.720* & -4.878* & 22.741*\\
+Travel Distance, units:mi (Bike) & -0.348* & -0.172* & -5.139* & -3.535* & 10.636*\\
+Household Size (Shared Ride 2 \& 3+) & 0.592* & 0.234* & 0.581* & 0.584* & 1.916\hphantom{*}\\
+Cross-Bay Tour (All Transit Modes) & 1.104* & 0.598* & 4.389* & 1.511\hphantom{*} & 0.187\hphantom{*}\\
+shape\_DriveAlone & \_ & \_ & 0.704* & -0.538\hphantom{*} & \_\\
+shape\_SharedRide2 & \_ & 2.244\hphantom{*} & 0.873* & -0.350\hphantom{*} & -0.900*\\
+shape\_SharedRide3 & \_ & 5.335* & 1.505* & 0.396\hphantom{*} & -1.016*\\
+shape\_WalkTransitWalk & \_ & 1.619\hphantom{*} & 0.501* & -4.657* & -0.011\hphantom{*}\\
+shape\_DriveTransitWalk & \_ & -0.418\hphantom{*} & 0.460* & -6.804* & -3.003*\\
+shape\_WalkTransitDrive & \_ & -0.562\hphantom{*} & 0.492* & -6.417* & -3.444*\\
+shape\_Walk & \_ & 2.134\hphantom{*} & 0.599* & -1.399* & -0.758*\\
+shape\_Bicycle & \_ & 1.243\hphantom{*} & 0.084* & -2.349* & -0.769*\\
+
+\multicolumn{6}{c}{}\tabularnewline
+Posterior Probability & 0.000\% & 0.028\% & 7.973\% & 91.998\% & 0.000\% \tabularnewline 
+
+\bottomrule
+\multicolumn{6}{l}{Note: * means the 95\% credible interval excludes $0$.}
+\end{tabular}
