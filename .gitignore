@@ -1,0 +1,13 @@
+# Compiled source files #
+#########################
+*.tex.bak
+*.aux
+*.blg
+*.log
+*.synctex.gz
+*.bak
+
+# Binaries and media files #
+############################
+*.pptx
+*.mp4
